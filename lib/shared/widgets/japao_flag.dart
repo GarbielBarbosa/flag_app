@@ -14,17 +14,7 @@ class JapaoFlag extends StatelessWidget {
         child: Stack(
           children: [
             Center(
-              child: Container(
-                decoration: BoxDecoration(
-                  gradient: RadialGradient(colors: [
-                    Colors.white,
-                    Colors.grey.shade100,
-                  ], stops: [
-                    0.8,
-                    1
-                  ]),
-                ),
-              ),
+              child: Container(color: Colors.white),
             ),
             Center(
               child: Container(
